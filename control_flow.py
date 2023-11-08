@@ -77,16 +77,16 @@
 #      isosceles - exactly two sides are the same length
 # 3. Print a message such as:
 #      - A triangle with sides of <a>, <b> & <c> is a <type of triangle> triangle
-input_a = float(input("a:"))
-input_b = float(input("b:"))
-input_c = float(input("c:"))
-if input_a == input_b == input_c:
-  triangle_type = "equlateral"
-elif input_a != input_b and input_a != input_c and input_b != input_c:
-  triangle_type = "scalene"
-elif input_a == input_b and input_b != input_c and input_a != input_c:
-  triangle_type = "isosceles"
-print(f"A triangle with sides of {input_a}, {input_b}, {input_c} is a {triangle_type}")
+# input_a = float(input("a:"))
+# input_b = float(input("b:"))
+# input_c = float(input("c:"))
+# if input_a == input_b == input_c:
+#   triangle_type = "equlateral"
+# elif input_a != input_b and input_a != input_c and input_b != input_c:
+#   triangle_type = "scalene"
+# elif input_a == input_b and input_b != input_c and input_a != input_c:
+#   triangle_type = "isosceles"
+# print(f"A triangle with sides of {input_a}, {input_b}, {input_c} is a {triangle_type}")
 
 
 
@@ -110,6 +110,14 @@ print(f"A triangle with sides of {input_a}, {input_b}, {input_c} is a {triangle_
 # The next number is found by adding the two numbers before it
 # Use a while loop with a looping variable, or look into Python ranges, e.g.:
 #   for n in range(50):
+# term_0, term_1 = 0, 1
+# print(f"term: 0 / number: {term_0}")
+# print(f"term: 1 / number: {term_1}")
+
+# for term in range(2, 51):
+#   term_2 = term_0 + term_1
+#   print(f"term: {term} / number: {term_2}")
+#   term_0, term_1 = term_1, term_2
 
 
 
