@@ -10,11 +10,11 @@
 
 # Hints:  Use the in operator to check if a character is in another string
 #         For example, if some_char in 'abc':
-# input_value = input('Enter an alphabet:')
-# if input_value in "aeiouAEIOU":
-#   print(f"The letter {input_value} is a vowel ")
-# else:
-#   print(f"The letter {input_value} is consonant") 
+input_value = input('Enter an alphabet:')
+if input_value in "aeiouAEIOU":
+  print(f"The letter {input_value} is a vowel ")
+else:
+  print(f"The letter {input_value} is consonant") 
 
 
 
@@ -28,12 +28,12 @@
 # 2. Print the following message:
 #      - What you entered is xx characters long
 # 3. Return to step 1, unless the word 'quit' was entered.
-# while True:
-#   input_phrase = input("Please enter a word or phrase:")
-#   if input_phrase.lower() == "quit":
-#     break
-#   elif input_phrase:
-#     print(f"what you entered is {len(input_phrase)} characters long")
+while True:
+  input_phrase = input("Please enter a word or phrase:")
+  if input_phrase.lower() == "quit":
+    break
+  elif input_phrase:
+    print(f"what you entered is {len(input_phrase)} characters long")
 
 
 
@@ -53,11 +53,11 @@
 # Hints:
 # Use the int() function to convert the string returned from input() into an integer
 # Start with an if that checks if the age is less than 3
-# input_year = int(input("Enter a dog's age:"))
-# if input_year < 3:
-#   print(f"The dog's age in dog years is 10")
-# else:
-#   print(f"The dog's age in dog years is 7")
+input_year = int(input("Enter a dog's age:"))
+if input_year < 3:
+  print(f"The dog's age in dog years is 10")
+else:
+  print(f"The dog's age in dog years is 7")
 
 
 
@@ -77,16 +77,16 @@
 #      isosceles - exactly two sides are the same length
 # 3. Print a message such as:
 #      - A triangle with sides of <a>, <b> & <c> is a <type of triangle> triangle
-# input_a = float(input("a:"))
-# input_b = float(input("b:"))
-# input_c = float(input("c:"))
-# if input_a == input_b == input_c:
-#   triangle_type = "equlateral"
-# elif input_a != input_b and input_a != input_c and input_b != input_c:
-#   triangle_type = "scalene"
-# elif input_a == input_b and input_b != input_c and input_a != input_c:
-#   triangle_type = "isosceles"
-# print(f"A triangle with sides of {input_a}, {input_b}, {input_c} is a {triangle_type}")
+input_a = float(input("a:"))
+input_b = float(input("b:"))
+input_c = float(input("c:"))
+if input_a == input_b == input_c:
+  triangle_type = "equlateral"
+elif input_a != input_b and input_a != input_c and input_b != input_c:
+  triangle_type = "scalene"
+elif input_a == input_b and input_b != input_c and input_a != input_c:
+  triangle_type = "isosceles"
+print(f"A triangle with sides of {input_a}, {input_b}, {input_c} is a {triangle_type}")
 
 
 
@@ -110,14 +110,14 @@
 # The next number is found by adding the two numbers before it
 # Use a while loop with a looping variable, or look into Python ranges, e.g.:
 #   for n in range(50):
-# term_0, term_1 = 0, 1
-# print(f"term: 0 / number: {term_0}")
-# print(f"term: 1 / number: {term_1}")
+term_0, term_1 = 0, 1
+print(f"term: 0 / number: {term_0}")
+print(f"term: 1 / number: {term_1}")
 
-# for term in range(2, 51):
-#   term_2 = term_0 + term_1
-#   print(f"term: {term} / number: {term_2}")
-#   term_0, term_1 = term_1, term_2
+for term in range(2, 51):
+  term_2 = term_0 + term_1
+  print(f"term: {term} / number: {term_2}")
+  term_0, term_1 = term_1, term_2
 
 
 
