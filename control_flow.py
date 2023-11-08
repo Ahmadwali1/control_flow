@@ -53,6 +53,11 @@
 # Hints:
 # Use the int() function to convert the string returned from input() into an integer
 # Start with an if that checks if the age is less than 3
+input_year = int(input("Enter a dog's age:"))
+if input_year < 3:
+  print(f"The dog's age in dog years is 10")
+else:
+  print(f"The dog's age in dog years is 7")
 
 
 
